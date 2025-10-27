@@ -21,7 +21,7 @@ public:
             res_ = fresh;
         }
         return *this;
-    }
+    } 
 
     double get() const { return res_->get(); }
 };
